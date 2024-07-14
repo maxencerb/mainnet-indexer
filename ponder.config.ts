@@ -27,22 +27,22 @@ export default createConfig({
       },
       network: {
         arbitrum: {
-          startBlock: 0,
+          startBlock: 232027583,
         },
         base: {
-          startBlock: 0,
+          startBlock: 17074252,
         },
       },
     },
     SyncSafeModule: {
       abi: SyncSafeABI,
-      address: "0x06E6763E03eC220E443A38388687084BFdE8669A",
+      address: "0x8991690990Ea0A47B41c67c7Fa82d717387eAcD9",
       network: {
         arbitrum: {
-          startBlock: 0,
+          startBlock: 232027583,
         },
         base: {
-          startBlock: 0,
+          startBlock: 17074252,
         },
       },
     },
