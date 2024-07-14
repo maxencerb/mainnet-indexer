@@ -1,14 +1,6 @@
 import { ponder } from "@/generated";
-import {
-  type Address,
-  encodePacked,
-  getContractAddress,
-  keccak256,
-} from "viem";
-import { fromEidToChainId, getSafeAddress } from "./utils";
-import { SafeProxyFactoryABI } from "../abis/SafeProxyFactory";
-
-const proxyFactoryAddress = "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2";
+import type { Address } from "viem";
+import { fromEidToChainId } from "./utils";
 
 ponder.on("SafeContract:SafeSetup", async ({ context, event }) => {
   const { SyncSafeChainInstance } = context.db;
